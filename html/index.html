@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -14,78 +22,97 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <nav>
-        <div>
-          <span
-            ><i class="fa-solid fa-house-chimney"></i>
-            <span>FUNFACT</span>
-          </span>
+    <header>
+      <nav class="navbar">
+        <div class="logo-header"><h1>FUNFACT</h1></div>
+        <div class="nav-links">
+          <a href="#">Advertise</a>
+          <a href="#">Post a listing</a>
         </div>
       </nav>
+      <div class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Find your place here</h1>
+          <p class="hero-subtitle">
+            Discover an amazing of place to visit, stay, and live.
+          </p>
+
+          <div class="search-bar">
+            <span class="search-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search by location or property name"
+            />
+          </div>
+        </div>
+      </div>
     </header>
     <main class="main">
-      <!-- hero section -->
-      <section></section>
       <!-- section1 -->
       <section>
         <div class="main-discription">
-          <h2>Renting made easy</h2>
-          <p>
-            Helping millions of renters navigate the rental market with
-            confidence.
-          </p>
+          <h2>Things to Do in Cambodia</h2>
+          <p>Check out must-see sights and activities:</p>
         </div>
         <div class="box-container">
           <!-- card -->
           <div class="box">
-            <img
-              src="https://d214hhm15p4t1d.cloudfront.net/nzr/8ae5a771bcaa6bb839124b721c99eec1698319f7/img/comprehensiveListings.d279ced0.svg"
-              alt=""
-            />
+            <img src="/asset/landmark.png" alt="" />
             <div class="discription">
-              <h3>Comprehensive listings</h3>
+              <h3>Iconic Landmarks</h3>
               <p>
-                Browse and apply to over 1 million listings with long or short
-                term leases throughout the U.S. and Canada.
+                Explore the magnificent temples of Angkor Wat, the intriguing
+                faces of Bayon, and the tree-engulfed Ta Prohm. These ancient
+                structures are not just places to visit but doorways to
+                Cambodia's past.
               </p>
             </div>
-            <div></div>
           </div>
           <div class="box">
-            <img
-              src="https://d214hhm15p4t1d.cloudfront.net/nzr/8ae5a771bcaa6bb839124b721c99eec1698319f7/img/usefulResources.d2e569af.svg"
-              alt=""
-            />
+            <img src="/asset/mountain.png" alt="" />
             <div class="discription">
-              <h3>Comprehensive listings</h3>
+              <h3>Adventure and Nature</h3>
               <p>
-                Browse and apply to over 1 million listings with long or short
-                term leases throughout the U.S. and Canada.
+                Embark on a journey to the lush Cardamom Mountains, take a boat
+                trip through the Tonlé Sap Lake, or witness the sunrise at the
+                majestic Phnom Bakheng. Cambodia's natural beauty is waiting to
+                be explored.
               </p>
             </div>
-            <div></div>
           </div>
           <div class="box">
-            <img
-              src="https://d214hhm15p4t1d.cloudfront.net/nzr/8ae5a771bcaa6bb839124b721c99eec1698319f7/img/peaceOfMind.cfc8536a.svg"
-              alt=""
-            />
+            <img src="/asset/cultural.png" alt="" />
             <div class="discription">
-              <h3>Comprehensive listings</h3>
+              <h3>Cultural Experiences</h3>
               <p>
-                Browse and apply to over 1 million listings with long or short
-                term leases throughout the U.S. and Canada.
+                Dive into Cambodia's rich culture with a visit to the capital,
+                Phnom Penh, where you can learn about the country's history at
+                the National Museum and the Killing Fields. Experience
+                traditional Cambodian dance performances and local markets for
+                an authentic taste of Cambodian life.
               </p>
             </div>
-            <div></div>
           </div>
         </div>
       </section>
       <!-- section 2 -->
       <section>
         <div class="title-description">
-          <h2>Popular place</h2>
+          <h2>Popular Cities in Cambodia</h2>
           <p>Discover place in our most popular locations.</p>
         </div>
         <div class="card-container">
@@ -102,28 +129,28 @@
             <p>Phnom Penh</p>
           </div>
           <div class="card">
-            <img src="/asset/Vimean-Ekreach.jpg" alt="Angkor Wat" />
-            <p>New York, NY</p>
+            <img src="/asset/kep.png" alt="Kep" />
+            <p>Kep</p>
           </div>
           <div class="card">
             <img src="/asset/Battambong.png" alt="Angkor Wat" />
             <p>Battambong</p>
           </div>
           <div class="card">
-            <img src="/asset/Sihanoukville.jpg" alt="Angkor Wat" />
-            <p>Sihanoukville</p>
+            <img src="/asset/kampot.png" alt="Angkor Wat" />
+            <p>Kampot</p>
           </div>
           <div class="card">
             <img src="/asset/Sihanoukville.jpg" alt="Angkor Wat" />
             <p>Sihanoukville</p>
           </div>
           <div class="card">
-            <img src="/asset/Sihanoukville.jpg" alt="Angkor Wat" />
-            <p>Sihanoukville</p>
+            <img src="/asset/kratie.png" alt="Angkor Wat" />
+            <p>Kratie</p>
           </div>
           <div class="card">
-            <img src="/asset/Sihanoukville.jpg" alt="Angkor Wat" />
-            <p>Sihanoukville</p>
+            <img src="/asset/preah-vihea.png" alt="Angkor Wat" />
+            <p>Preas Vihea</p>
           </div>
         </div>
       </section>
@@ -139,39 +166,47 @@
           <div class="app-title">
             <h1>A best-in-class experience</h1>
             <p>
-              The Zumper iOS and Android apps provide a seamless apartment
-              search experience.
+              The FUNFACT iOS and Android apps provide a search function and map
+              experience.
             </p>
           </div>
           <div class="app-icon-container">
             <div class="app-icon">
               <i class="fa-solid fa-circle-check" style="color: #2c9400"></i>
-              <p>Extensive filters to refine your search</p>
+              <p>Interactive Map Search</p>
             </div>
             <div class="app-icon">
               <i class="fa-solid fa-circle-check" style="color: #2c9400"></i>
-              <p>Extensive filters to refine your search</p>
+              <p>Refined Search Filters</p>
             </div>
             <div class="app-icon">
               <i class="fa-solid fa-circle-check" style="color: #2c9400"></i>
-              <p>Extensive filters to refine your search</p>
+              <p>Favorites and Alerts</p>
             </div>
             <div class="app-icon">
               <i class="fa-solid fa-circle-check" style="color: #2c9400"></i>
-              <p>Extensive filters to refine your search</p>
+              <p>Direct Contact</p>
             </div>
           </div>
 
           <div class="app-btn-container">
             <button class="app-btn">
-              <img src="/asset/apple-logo.png" alt="apple-logo" style="width: 20px; height: 20px;"  />
+              <img
+                src="/asset/apple-logo.png"
+                alt="apple-logo"
+                style="width: 30px; height: 30px"
+              />
               <div class="app-btn-text">
                 <p>Download on the</p>
                 <h3>App Store</h3>
               </div>
             </button>
             <button class="app-btn">
-              <img src="/asset/googleplay.png" alt="googleplay" style="width: 20px; height: 20px;"/>
+              <img
+                src="/asset/googleplay.png"
+                alt="googleplay"
+                style="width: 30px; height: 30px"
+              />
               <div class="app-btn-text">
                 <p>GET IT ON</p>
                 <h3>Google Play</h3>
@@ -182,33 +217,31 @@
       </section>
       <!-- section 4 -->
       <section>
-        <div>
-          <div>
-            <h2>Zumper National Rent Report</h2>
+        <div class="app-section">
+          <div class="app-discription title-description">
+            <h2>Sihanoukville</h2>
+            <p>
+              The coastal town is famous for having some of the best beaches in
+              Cambodia, making it the getaway destination of choice for the city
+              dwellers of Phnom Penh.
+            </p>
+            <button class="button">Checkout</button>
+          </div>
+          <img src="/asset/Sihanoukville.jpg" alt="" />
+        </div>
+      </section>
+      <section>
+        <div class="card-detail">
+          <div class="app-discription title-description">
+            <h2>FUNFACT National Search Report</h2>
             <p>
               We analyze over one million active listings across the country to
               inform our monthly rent report. Get a comprehensive view of the
               current state of the market.
             </p>
-            <button>View lates report</button>
+            <button class="button">View lates report</button>
           </div>
-          <div>
-            <img src="" alt="" />
-          </div>
-        </div>
-        <div>
-          <div>
-            <h2>Marketing solutions for our partners big and small</h2>
-            <p>
-              Whether you're a property owner, manager, or broker, we offer
-              customized solutions to help you reach millions of quality renters
-              during every step of the renter journey.
-            </p>
-            <button>List your property</button>
-          </div>
-          <div>
-            <img src="" alt="" />
-          </div>
+          <img src="/asset/house.png" alt="" />
         </div>
       </section>
       <!-- section 5 -->
@@ -244,19 +277,71 @@
                 alt=""
               />
             </div>
-            <div class="card">
-              <img
-                src="https://d214hhm15p4t1d.cloudfront.net/nzr/8ae5a771bcaa6bb839124b721c99eec1698319f7/img/nyt.226a5508.svg"
-                alt=""
-              />
-            </div>
           </div>
         </div>
       </section>
       <br />
     </main>
     <footer class="footer">
-      <p>Made by Visual | © 2025 FUNFACT</p>
+      <div class="footer-content">
+        <div class="sections">
+          <div class="section">
+            <div class="logo">
+              <h1>FUNFACT</h1>
+              <p>Create your reality</p>
+            </div>
+            <div class="social-media">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="section">
+            <h3>COMPANY</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Rental Guides</a></li>
+              <li><a href="#">Newsroom</a></li>
+            </ul>
+          </div>
+          <div class="section">
+            <h3>SUPPORT</h3>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Fair Housing Rights</a></li>
+            </ul>
+          </div>
+          <div class="section">
+            <h3>PRIVACY POLICY</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Notice of Collection</a></li>
+              <li>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+              </li>
+            </ul>
+          </div>
+          <div class="section">
+            <h3>EXPLORE</h3>
+            <ul>
+              <li><a href="#">Advertise with Us</a></li>
+              <li><a href="#">Tenant Screening</a></li>
+              <li><a href="#">List Property</a></li>
+              <li><a href="#">Landlord Resources</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p>© 2025 FUNFACT</p>
+      </div>
     </footer>
   </body>
 </html>
